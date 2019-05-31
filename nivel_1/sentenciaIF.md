@@ -1,13 +1,30 @@
-"use strict";
-// Explicacion
+# Sentencia de control if
+Sirve para ejecutar un bloque de codigo al evaluar una expresion booleana (true, false), si dicha exprecion booleana (condicion) es verdadera entonces se ejecuta.
 
+### Estructura de un if
+
+```javascript
+if( <expresion booleana> ) {
+    // codigo a ejecutar si la evaluacion es true
+} else {
+    // codigo a ejecutar si la evaluacion es false
+}
+```
+### Expresion booleana
+```javascript
 let ejecutarCodigo = true;
-
-// sentencia if: sirve para evaluar una expresion booleana (true, false)
-
 console.log('ejecutarCodigo', ejecutarCodigo)
+// ejecutar codigo true
+```
+### Negar una expresion booleana
+Negar una expresion booleana significa cambiar negar el valor de una variable, negar true da como resultado false, negar false da como resultado true.
+
+```javascript
+let ejecutarCodigo = true;
 console.log('negacion ejecutarCodigo', !ejecutarCodigo)
+// negacion ejecutarCodigo false
 console.log('doble negacion ejecutarCodigo', !!ejecutarCodigo)
+// doble negacion ejecutarCodigo true
 
 if ( ejecutarCodigo ){
     console.log('Este codigo se va a ejecutar')
@@ -16,6 +33,7 @@ if ( ejecutarCodigo ){
 if( !ejecutarCodigo ) {
     console.log('Este codigo no se va a ejecutar')
 }
+
 
 if (10 > 5) {
     console.log('es 10 mayor a 5?', 10 > 5)
@@ -158,3 +176,7 @@ if ( a > b) {
  */
 
 // https://www.udemy.com/programacion-para-principiantes/
+
+```
+
+
