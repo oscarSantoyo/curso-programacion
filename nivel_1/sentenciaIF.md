@@ -11,6 +11,21 @@ if( <expresion booleana> ) {
 }
 ```
 ### Expresion booleana
+Una expresion booleana es toda aquella evaluacion logica que tenga como resultado un `true` o `false` ejemplos de expresiones booleanas son las siguientes: 
+#### Ejemplos:
+1. En el ejemplo 
+```javascript
+if (10 > 5) {
+    // codigo...
+}
+```
+la expresion `10 > 5` tiene como resultado `true` ya que es cierto que `10` es mayor que `5`, y por lo tanto se ejecuta el codigo dentro del if.
+2. La expresion
+```javascript
+
+```
+
+
 ```javascript
 let ejecutarCodigo = true;
 console.log('ejecutarCodigo', ejecutarCodigo)
@@ -20,7 +35,7 @@ console.log('ejecutarCodigo', ejecutarCodigo)
 Negar una expresion booleana significa cambiar negar el valor de una variable, negar true da como resultado false, negar false da como resultado true.
 
 ```javascript
-let ejecutarCodigo = true;
+et ejecutarCodigo = true;
 console.log('negacion ejecutarCodigo', !ejecutarCodigo)
 // negacion ejecutarCodigo false
 console.log('doble negacion ejecutarCodigo', !!ejecutarCodigo)
@@ -169,10 +184,16 @@ if ( a > b) {
 */
 
 /*
-  Ejercicio: Calcular el area de un triangulo rectangulo
+  Ejercicio: Calcular el area de un triangulo rectangulo, formula del area: lado por lado entre 2.
   Caso 1 => l = 1
   Caso 2 => l = 10
   Caso 3 => l = 400
+ */
+ 
+ /*
+    Ejercicio: Tengo una mama y un papa como en la mayoria de las familias, y como en la mayoria de las familias cuando quiero salir a pasear con mis amigos sucede lo siguiente.
+    Si alguno de mis papas dice que no entonces no puedo salir.
+    Solo si ambos dicen que si entonces puedo salir.
  */
 
 // https://www.udemy.com/programacion-para-principiantes/
